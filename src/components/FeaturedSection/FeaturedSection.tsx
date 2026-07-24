@@ -33,7 +33,7 @@ const FeaturedSection = () => {
         </a>
       </div>
 
-      <div className="grid grid-cols-2 gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+      <div className="grid grid-cols-2 gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mb-48">
         {featuredData.slice(0, visibleCards).map((item) => (
           <SpecialCard key={item.id} card={item} />
         ))}

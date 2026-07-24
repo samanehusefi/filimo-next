@@ -5,7 +5,9 @@ const nextConfig: NextConfig = {
 
   output: "export",
 
-  basePath: "/filimo-next",
+  basePath: process.env.NODE_ENV === "production" ? "/filimo-next" : "",
+
+  trailingSlash: true,
 
   images: {
     unoptimized: true,
