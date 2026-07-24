@@ -6,7 +6,6 @@ const nextConfig: NextConfig = {
   output: "export",
 
   basePath: "/filimo-next",
-  assetPrefix: "/filimo-next/",
 
   images: {
     unoptimized: true,
