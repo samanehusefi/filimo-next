@@ -6,6 +6,7 @@ export interface FooterLink {
   icon?: string | null;
   position?: "right" | "left";
   showInMobile?: boolean;
+  mobileOrder?: number;
   children?: FooterLinkChild[];
 }
 

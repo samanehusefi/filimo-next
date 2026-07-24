@@ -93,7 +93,6 @@ export const menuData = [
     icon: "kids",
     priority: 8,
     hasMegaMenu: true,
-    icon: "kids",
     children: [
       { id: 801, title: "شبکه کودک", href: "/kids/channel", priority: 1 },
       { id: 802, title: "کودک ایرانی", href: "/kids/iranian", priority: 2 },

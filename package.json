@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "deploy": "npm run build && gh-pages -d out",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "next": "16.2.11",
@@ -24,6 +26,7 @@
     "daisyui": "^5.7.0",
     "eslint": "^9",
     "eslint-config-next": "16.2.11",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
